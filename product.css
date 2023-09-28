@@ -1,0 +1,67 @@
+.content-wrapper {
+  display: flex;
+}
+
+.content-wrapper .card-product {
+  min-height: 30rem;
+  max-width: min-content;
+  background-color: #95a5a6;
+  margin: 3rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-wrapper .card-product .product-image {
+  border-radius: 10px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.content-wrapper .card-product .product-body {
+  margin: auto;
+  padding: 2rem;
+  color: #fff;
+}
+
+.content-wrapper .card-product .product-body .nama-product {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.content-wrapper .card-product .product-body .deskripsi-product {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.content-wrapper .card-product .product-body .harga-product {
+  font-size: 1.7rem;
+  font-weight: 800;
+}
+
+.content-wrapper .card-product .product-body .product-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.content-wrapper .card-product .product-body .product-footer a {
+  display: block;
+  background-color: #3498db;
+  padding: 0 20px;
+  border: none;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+  line-height: 90px;
+}
+
+.content-wrapper .card-product .product-body .product-footer a:hover {
+  background-color: #2980b9;
+  cursor: pointer;
+}
