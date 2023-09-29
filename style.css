@@ -3,45 +3,46 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #ecf0f1;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+
+  background-color: #f5f1eb;
 }
 
 .container {
   min-height: 100vh;
+  max-width: 100%;
 }
 
 .navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
   display: flex;
   justify-content: space-between;
+  padding: 5px 50px;
   align-items: center;
-  padding: 0.5rem 4rem;
   border-bottom: 1px solid black;
   backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
-  -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%)
+  -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(45%)
     brightness(140%);
 }
 
-.navbar .title h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
+.navbar .title a {
+  padding: 0;
 }
 
-.navbar .title h1 a:hover {
-  color: #34495e;
-}
-
-.navbar .title h1 a {
-  text-decoration: none;
-  color: black;
+.navbar .title a img {
+  object-fit: cover;
+  margin-left: 40px;
 }
 
 .navbar .menu ul {
   display: flex;
   list-style: none;
+  margin-right: 100px;
 }
 
 .navbar .menu ul li {
@@ -49,7 +50,7 @@ body {
 }
 
 .navbar .menu ul li a {
-  font-size: 1.7rem;
+  font-size: 1rem;
   text-decoration: none;
   color: black;
 }
@@ -62,9 +63,13 @@ body {
 
 .navbar .menu li .selected {
   background-color: black;
-  padding: 20px;
+  padding: 15px;
   border-radius: 5px;
   color: white;
+}
+
+section {
+  margin-top: 8rem;
 }
 
 .content {
@@ -72,14 +77,20 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 3rem;
+  padding: 4rem;
+}
+
+.content img {
+  object-fit: cover;
+  width: 100%;
 }
 
 .content .title-content {
-  font-size: 4rem;
+  text-align: center;
+  font-size: 2rem;
 }
 
 .content .body-content {
-  font-size: 2rem;
-  text-align: center;
+  font-size: 1.2rem;
+  text-align: justify;
 }

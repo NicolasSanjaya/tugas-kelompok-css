@@ -1,0 +1,116 @@
+.wrapper-back {
+  margin-top: 10rem;
+  margin-left: 50px;
+  color: #1c3f26;
+}
+
+.wrapper-back:hover,
+.wrapper-back h1 a:hover {
+  color: #0d1d12;
+}
+
+.wrapper-back h1 a {
+  text-decoration: underline;
+  color: #1c3f26;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.content-container .detail-image {
+  width: 40%;
+}
+
+.content-container .detail-image img {
+  width: 400px;
+  object-fit: cover;
+}
+
+.content-container .detail-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.content-container .detail-content h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.content-container .detail-content h3 {
+  font-size: 1rem;
+  text-align: start;
+}
+
+.content-container .detail-content ul li {
+  text-align: start;
+}
+
+.content-container .detail-content .line {
+  height: 1px;
+  background-color: black;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.content-container .detail-content .size-container {
+  margin-top: 2rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.content-container .detail-content .size-container span {
+  padding: 10px 20px;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  border: 3px solid #245232;
+  cursor: pointer;
+}
+
+.content-container .detail-content .size-container span:hover {
+  background-color: #1c3f26;
+  color: white;
+  border: 3px solid black;
+}
+
+.content-container .detail-content .size-container .size-empty {
+  border: 3px solid #e74c3c;
+}
+
+.content-container .detail-content .size-container .size-empty:hover {
+  background-color: #c0392b;
+}
+
+.content-container .detail-content .quantity {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.content-container .detail-content .quantity .minus,
+.content-container .detail-content .quantity .plus {
+  padding: 10px 20px;
+  border: 1px solid black;
+  text-align: center;
+  cursor: pointer;
+  margin: auto;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.content-container .detail-content .quantity p {
+  padding: 0 30px;
+  font-size: 1rem;
+  font-weight: bold;
+}

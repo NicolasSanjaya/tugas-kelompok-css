@@ -12,9 +12,15 @@
   text-align: center;
 }
 
+.content .title-anggota {
+  margin-top: 6rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
 .content .card-anggota {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 3fr 3fr;
   width: 100%;
   margin-top: 4rem;
 }
@@ -23,16 +29,20 @@
   margin-right: 1rem;
 }
 
+.content .card-anggota .image-anggota img {
+  width: 300px;
+}
+
 .content .card-anggota .data-anggota {
   margin-left: 1rem;
 }
 
 .content .card-anggota .data-anggota h3 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
 .content .card-anggota .data-anggota p {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 500;
 }

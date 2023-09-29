@@ -6,10 +6,13 @@
 
 .content-wrapper .card-product {
   max-width: min-content;
-  height: fit-content;
-  background-color: #95a5a6;
+  height: 850px;
+  background-color: #245232;
   margin: 3rem;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .content-wrapper .card-product .product-image {
@@ -28,42 +31,53 @@
 }
 
 .content-wrapper .card-product .product-body .nama-product {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   font-weight: bold;
 }
 
 .content-wrapper .card-product .product-body .deskripsi-product {
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: justify;
 }
 
-.content-wrapper .card-product .product-body .harga-product {
-  font-size: 1.7rem;
-  font-weight: 800;
-}
-
-.content-wrapper .card-product .product-body .product-footer {
+.content-wrapper .card-product .product-footer {
   display: flex;
   justify-content: space-between;
   margin-top: 3rem;
+  margin: auto;
+  padding: 20px;
 }
 
-.content-wrapper .card-product .product-body .product-footer a {
-  display: block;
-  background-color: #3498db;
-  padding: 0 20px;
+.content-wrapper .card-product .product-footer .harga-product {
+  font-size: 1rem;
+  font-weight: 800;
+  margin-right: 1rem;
+  text-align: start;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: white;
+}
+
+.content-wrapper .card-product .product-footer a {
+  background-color: #f5f1eb;
   border: none;
+  padding: 0 20px;
   text-align: center;
   border-radius: 8px;
-  font-size: 1.3rem;
+  font-size: 0.8rem;
   text-decoration: none;
   font-weight: 700;
-  color: #fff;
-  line-height: 90px;
+  color: #245232;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
-.content-wrapper .card-product .product-body .product-footer a:hover {
-  background-color: #2980b9;
+.content-wrapper .card-product .product-footer a:hover {
+  background-color: #7f8c8d;
+  color: white;
   cursor: pointer;
 }

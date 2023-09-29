@@ -8,7 +8,7 @@
 
 .body-content form {
   margin-top: 2rem;
-  width: 60%;
+  width: 40%;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -22,15 +22,16 @@
 }
 
 .body-content .form-nama label {
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .body-content .form-nama input {
   padding: 1rem;
-  font-size: 1.7rem;
+  font-size: 1rem;
   margin-top: 1rem;
   border-radius: 0.7rem;
+  border: 0.5px solid black;
 }
 
 .body-content .form-email {
@@ -41,15 +42,16 @@
 }
 
 .body-content .form-email label {
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .body-content .form-email input {
   padding: 1rem;
-  font-size: 1.7rem;
+  font-size: 1rem;
   margin-top: 1rem;
   border-radius: 0.7rem;
+  border: 1px solid black;
 }
 
 .body-content .form-comment {
@@ -64,6 +66,7 @@
   font-size: 1rem;
   padding: 1rem;
   border-radius: 10px;
+  border: 1px solid black;
 }
 
 .body-content .form-button {
@@ -73,8 +76,8 @@
 }
 
 .body-content .form-button button {
-  padding: 1rem 4rem;
-  font-size: 2rem;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
   font-weight: 500;
   border: none;
   background-color: #2ecc71;
