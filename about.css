@@ -1,0 +1,38 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content .title-content {
+  text-align: center;
+}
+
+.content .body-content {
+  text-align: center;
+}
+
+.content .card-anggota {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.content .card-anggota .image-anggota {
+  margin-right: 1rem;
+}
+
+.content .card-anggota .data-anggota {
+  margin-left: 1rem;
+}
+
+.content .card-anggota .data-anggota h3 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.content .card-anggota .data-anggota p {
+  font-size: 2rem;
+  font-weight: 500;
+}

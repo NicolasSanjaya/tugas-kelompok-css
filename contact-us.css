@@ -1,0 +1,96 @@
+.body-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-content form {
+  margin-top: 2rem;
+  width: 60%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.body-content .form-nama {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.body-content .form-nama label {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.body-content .form-nama input {
+  padding: 1rem;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+  border-radius: 0.7rem;
+}
+
+.body-content .form-email {
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.body-content .form-email label {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.body-content .form-email input {
+  padding: 1rem;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+  border-radius: 0.7rem;
+}
+
+.body-content .form-comment {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 3rem auto;
+  justify-content: center;
+}
+
+.body-content .form-comment textarea {
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.body-content .form-button {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.body-content .form-button button {
+  padding: 1rem 4rem;
+  font-size: 2rem;
+  font-weight: 500;
+  border: none;
+  background-color: #2ecc71;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.body-content .form-button button:hover {
+  background-color: #27ae60;
+}
+
+.body-content .form-button .button-cancel {
+  background-color: #e74c3c;
+}
+
+.body-content .form-button .button-cancel:hover {
+  background-color: #c0392b;
+}
