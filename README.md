@@ -1,8 +1,9 @@
 # tugas-kelompok-css
 
 Tugas Kelompok CSS - Materi 2
-Semester : 5
-Matakuliah : Pemrograman Web & Mobile
+
+- Semester : 5
+- Matakuliah : Pemrograman Web & Mobile
 
 Nama Kelompok :
 

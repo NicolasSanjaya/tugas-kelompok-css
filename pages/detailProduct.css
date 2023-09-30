@@ -37,8 +37,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
-  align-items: center;
   margin-left: 40px;
 }
 
@@ -52,13 +50,16 @@
   text-align: start;
 }
 
-.content-container .detail-content ul li {
-  text-align: start;
+.content-container .detail-content ul {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 
 .content-container .detail-content .price {
   font-size: 2rem;
   font-weight: bold;
+  margin: 20px auto;
 }
 
 .content-container .detail-content .line {
@@ -102,6 +103,7 @@
   margin-top: 2rem;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .content-container .detail-content .quantity .minus,
