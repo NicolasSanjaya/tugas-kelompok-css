@@ -16,6 +16,7 @@
   margin-top: 6rem;
   font-size: 3rem;
   font-weight: bold;
+  text-align: center;
 }
 
 .content .card-anggota {
@@ -35,6 +36,9 @@
 
 .content .card-anggota .data-anggota {
   margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .content .card-anggota .data-anggota h3 {
@@ -45,4 +49,18 @@
 .content .card-anggota .data-anggota p {
   font-size: 1rem;
   font-weight: 500;
+}
+
+.content .card-anggota .data-anggota .icons {
+  display: flex;
+  align-items: center;
+}
+
+.content .card-anggota .data-anggota .icons .instagram {
+  transition: 1s;
+  width: 50px;
+}
+
+.content .card-anggota .data-anggota .icons .instagram:hover {
+  transform: scale(1.5);
 }

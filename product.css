@@ -77,7 +77,6 @@
 }
 
 .content-wrapper .card-product .product-footer a:hover {
-  background-color: #7f8c8d;
-  color: white;
+  background-color: #dddbd7;
   cursor: pointer;
 }
