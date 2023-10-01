@@ -137,3 +137,33 @@
 .content-container .detail-content .buy-now:hover {
   background-color: #1f452a;
 }
+
+@media (max-width: 640px) {
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    margin-left: -15px;
+    text-align: center;
+  }
+
+  .content-container .detail-image img {
+    width: 200px;
+    object-fit: cover;
+  }
+
+  .content-container .detail-content {
+    text-align: start;
+  }
+
+  .content-container .detail-content .price {
+    white-space: nowrap;
+  }
+
+  .content-container .detail-content .size-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

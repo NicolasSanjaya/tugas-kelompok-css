@@ -99,3 +99,20 @@ section {
   font-size: 1.2rem;
   text-align: justify;
 }
+
+@media (max-width: 640px) {
+  .navbar {
+    padding: 5px 30px;
+  }
+  .navbar .title a img {
+    margin-left: 15px;
+    width: 50px;
+  }
+  .navbar .menu ul li {
+    margin: 0 5px;
+    white-space: nowrap;
+  }
+  .navbar .menu ul li a {
+    font-size: 8px;
+  }
+}

@@ -73,6 +73,7 @@
   display: flex;
   justify-content: center;
   gap: 4rem;
+  flex-wrap: wrap;
 }
 
 .body-content .form-button button {
@@ -96,4 +97,18 @@
 
 .body-content .form-button .button-cancel:hover {
   background-color: #c0392b;
+}
+
+@media (max-width: 640px) {
+  .body-content .form-button button {
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .body-content .form-nama input,
+  .body-content .form-email input {
+    font-size: 10px;
+  }
 }

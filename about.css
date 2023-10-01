@@ -64,3 +64,11 @@
 .content .card-anggota .data-anggota .icons .instagram:hover {
   transform: scale(1.5);
 }
+
+@media (max-width: 640px) {
+  .content .card-anggota {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
